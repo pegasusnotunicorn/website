@@ -1,2 +1,2 @@
 # Pegasus Games
-##like a Unicorn but with wings.
+_like a Unicorn but with wings._
