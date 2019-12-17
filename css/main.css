@@ -1,0 +1,61 @@
+/* <editor-fold>-------TITLE---- */
+
+#title_block{
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-right:-50%;
+  transform:translate(-50%, -50%);
+  text-align:center;
+  font-family:"courier new","courier";
+}
+
+#title{
+  font-family:'Assistant',sans-serif;
+}
+
+#subtitle, #title{
+  margin:10px;
+}
+
+/* </editor-fold>---- */
+
+
+/* <editor-fold>-------GAME LIST---- */
+
+#main_body {
+  text-align:left;
+  margin-top:50px;
+  max-width:750px;
+}
+
+.game_list > div{
+  display:inline-block;
+  vertical-align:top;
+}
+
+.game_list_left{
+  padding-right:25px;
+  height:100%;
+}
+
+@media screen and (max-width: 525px) {
+  .game_list_right{
+    max-width:200px !important;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .game_list_right{
+    max-width:100px !important;
+  }
+}
+
+.game_list_right{
+  border-left:1px solid #000;
+  max-width:500px;
+  padding-left:25px;
+  line-height:150%;
+}
+
+/* </editor-fold>---- */
