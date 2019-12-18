@@ -20,13 +20,13 @@
 
 /* </editor-fold>---- */
 
-
 /* <editor-fold>-------GAME LIST---- */
 
 #main_body {
   text-align:left;
   margin-top:50px;
   max-width:750px;
+  line-height:150%;
 }
 
 .game_list > div{
@@ -55,7 +55,6 @@
   border-left:1px solid #000;
   max-width:500px;
   padding-left:25px;
-  line-height:150%;
 }
 
 /* </editor-fold>---- */
