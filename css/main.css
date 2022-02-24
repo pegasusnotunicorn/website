@@ -8,6 +8,15 @@
   transform:translate(-50%, -50%);
   text-align:center;
   font-family:"courier new","courier";
+  padding:4em;
+  padding-top:10em;
+}
+
+@media screen and (max-width: 500px) {
+  #title_block{
+    padding-left:2em;
+    padding-right:2em;
+  }
 }
 
 #mainimage{
@@ -39,15 +48,9 @@
   height:100%;
 }
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 500px) {
   .game_list_right{
-    max-width:200px !important;
-  }
-}
-
-@media screen and (max-width: 325px) {
-  .game_list_right{
-    max-width:100px !important;
+    max-width:70% !important;
   }
 }
 
