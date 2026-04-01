@@ -434,7 +434,40 @@ p {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .panel {
+    padding: 16px;
+  }
+
+  .hero-panel {
+    padding-top: 12px;
+  }
+
+  .game-card {
+    padding: 16px;
+  }
+
+  .share-button {
+    top: 16px;
+    right: 16px;
+  }
+
+  .link-main {
+    gap: 5px;
+  }
+
+  .link-arrow {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 450px) {
+  .link-arrow {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 350px) {
   .site-shell {
     padding: 18px 14px 36px;
   }
