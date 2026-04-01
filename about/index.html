@@ -1,69 +1,178 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Pegasus Games - like a Unicorn but with wings</title>
+  <title>Pegasus Games - About</title>
   <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Pegasus Games - like a Unicorn but with wings" />
-  <meta name="theme-color" content="#222222"/>
+  <meta name="theme-color" content="#101418" />
   <meta property="og:title" content="Pegasus Games - like a Unicorn but with wings" />
   <meta property="og:description" content="Pegasus Games - like a Unicorn but with wings" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.unicornwithwings.com" />
-  <link rel="icon" type="image/png" href="/favicon.png"/>
-  <link rel="icon" type="image/png" href="https://unicornwithwings.com/favicon.png"/>
+  <link rel="icon" type="image/png" href="../favicon.png" />
   <link rel="stylesheet" type="text/css" href="../css/main.css" />
-  <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154733185-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'UA-154733185-1');
+    document.addEventListener('dragstart', function (event) {
+      if (event.target.closest('a')) {
+        event.preventDefault();
+      }
+    });
   </script>
 </head>
 
 <body>
+  <svg aria-hidden="true" class="icon-defs">
+    <symbol id="icon-email" viewBox="0 0 24 24">
+      <rect x="3" y="5" width="18" height="14" rx="3" ry="3" fill="none" stroke="currentColor" stroke-width="1.8" />
+      <path d="M4.5 7.5 12 13l7.5-5.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+    </symbol>
+    <symbol id="icon-tiktok" viewBox="0 0 24 24">
+      <path d="M14 4v9.2a3.6 3.6 0 1 1-2.8-3.5V4h2.8c.4 2 1.8 3.8 4 4.2v2.8c-1.6-.1-3.1-.7-4.1-1.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+    </symbol>
+    <symbol id="icon-instagram" viewBox="0 0 24 24">
+      <rect x="4" y="4" width="16" height="16" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="1.8" />
+      <circle cx="12" cy="12" r="3.6" fill="none" stroke="currentColor" stroke-width="1.8" />
+      <circle cx="17" cy="7" r="1.1" fill="currentColor" />
+    </symbol>
+    <symbol id="icon-discord" viewBox="0 0 24 24">
+      <path d="M7 7.5h10A4.5 4.5 0 0 1 21.5 12v2A4.5 4.5 0 0 1 17 18.5h-6.2L6.5 21v-2.5A4.5 4.5 0 0 1 2.5 14v-2A4.5 4.5 0 0 1 7 7.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" />
+      <circle cx="9.5" cy="13" r="1.2" fill="currentColor" />
+      <circle cx="14.5" cy="13" r="1.2" fill="currentColor" />
+    </symbol>
+    <symbol id="icon-facebook" viewBox="0 0 24 24">
+      <path d="M13.4 20v-7h2.5l.4-3h-2.9V8.1c0-.9.3-1.5 1.6-1.5H16V4.1c-.4-.1-1.3-.1-2.2-.1-2.2 0-3.8 1.3-3.8 4V10H7.7v3H10V20Z" fill="currentColor" />
+    </symbol>
+    <symbol id="icon-threads" viewBox="0 0 24 24">
+      <text x="12" y="16.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="currentColor">@</text>
+    </symbol>
+    <symbol id="icon-bluesky" viewBox="0 0 24 24">
+      <path d="M12 11.6C10 8.7 8.3 6.5 6.3 5.2 4.4 4 3 4.7 3 6.7c0 3.9 4.2 5.4 6.7 5.7C7.2 12.7 3 14.2 3 18.1c0 2 1.4 2.7 3.3 1.5 2-1.3 3.7-3.5 5.7-6.4 2 2.9 3.7 5.1 5.7 6.4 1.9 1.2 3.3.5 3.3-1.5 0-3.9-4.2-5.4-6.7-5.7 2.5-.3 6.7-1.8 6.7-5.7 0-2-1.4-2.7-3.3-1.5-2 1.3-3.7 3.5-5.7 6.4Z" fill="currentColor" />
+    </symbol>
+    <symbol id="icon-twitter" viewBox="0 0 24 24">
+      <path d="m6 4 4.8 6.5L6.4 20H9l3.1-4.1L15 20h3L13 13.1 17.2 4h-2.6l-2.6 3.7L9.2 4Z" fill="currentColor" />
+    </symbol>
+    <symbol id="icon-youtube" viewBox="0 0 24 24">
+      <rect x="3" y="6" width="18" height="12" rx="4" ry="4" fill="currentColor" />
+      <path d="m10 9.3 5.2 2.7-5.2 2.7Z" fill="#ffffff" />
+    </symbol>
+  </svg>
 
-  <div id="title_block">
-    <image id="mainimage" src="../images/circle_white.png" />
-    <p id="subtitle">like a Unicorn but with wings</p>
-    <a href="/">home</a>
+  <main class="site-shell">
+    <section class="panel hero-panel">
+      <img class="logo-lockup" src="../images/pegasus-games-logo.webp" alt="Pegasus Games" />
 
-    <div id="main_body">
-      <p>
-        Why a Pegasus?
-      </p>
-      <p>
-        When my dad immigrated to the US, he started a company called <a target="_blank" href="https://unicorngraphics.com">Unicorn Graphics</a>. I named my company Pegasus because it's basically a better version of a Unicorn.
-      </p>
-      <p>
-        Why games?
-      </p>
-      <p>
-        Ever since I was little, I was obsessed with playing and making games. My parents and their generation look at games as just a waste of time and not a career. I want to prove them wrong.
-      </p>
-      <p>
-        Thanks for reading.
-      </p>
-      <a target="_blank" href="https://1minlee.com">Wonmin "1min" Lee</a>
-    </div>
+      <nav class="page-nav" aria-label="Primary">
+        <a class="pill-link" href="../index.html">Home</a>
+        <a class="pill-link is-active" href="./index.html">About</a>
+      </nav>
+    </section>
 
-    </br>
-    </br>
+    <section class="panel story-panel">
+      <div class="story-copy">
+        <h2>Why Pegasus?</h2>
+        <p>When my parents immigrated to the US, they started a company called <a target="_blank" rel="noopener noreferrer" href="https://unicorngraphics.com">Unicorn Graphics</a>. I named my company Pegasus because it's basically a better version of a Unicorn.</p>
+        <h2>Why games?</h2>
+        <p>Ever since I was little, I was obsessed with playing and making games. My parents and their generation look at games as just a waste of time and not a career. I want to prove them wrong.</p>
+        <p>Thanks for reading.</p>
+        <p>Wonmin "1min" Lee</p>
+      </div>
+    </section>
 
-    <a href="mailto:hello@unicornwithwings.com">email</a>
-    <a href="https://www.tiktok.com/@pegasusgamesnyc">tiktok</a>
-    <a href="https://instagram.com/pegasusgamesnyc">instagram</a>
-    <a href="https://discord.gg/nv89cRgEsS">discord</a>
-    <a href="https://www.facebook.com/PegasusGamesNYC/">facebook</a>
-    <a href="https://www.threads.com/@pegasusgamesnyc">threads</a>
-    <a href="https://bsky.app/profile/pegasusgamesnyc.bsky.social">bsky</a>
-    <a href="https://twitter.com/pegasusgamesnyc">twitter</a>
-    <a href="https://www.youtube.com/channel/UCLVCLQPt9jIGwWOA2kaaaxA">youtube</a>
-
-  </div>
-
+    <section class="panel panel-links">
+      <div class="link-grid">
+        <a class="link-tile link-email" href="mailto:hello@unicornwithwings.com">
+          <span class="link-main">
+            <span class="icon-badge">
+              <svg class="link-icon" aria-hidden="true"><use href="#icon-email"></use></svg>
+            </span>
+            <span class="link-label">Email</span>
+          </span>
+          <span class="link-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="link-tile link-tiktok" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@pegasusgamesnyc">
+          <span class="link-main">
+            <span class="icon-badge">
+              <svg class="link-icon" aria-hidden="true"><use href="#icon-tiktok"></use></svg>
+            </span>
+            <span class="link-label">TikTok</span>
+          </span>
+          <span class="link-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="link-tile link-instagram" target="_blank" rel="noopener noreferrer" href="https://instagram.com/pegasusgamesnyc">
+          <span class="link-main">
+            <span class="icon-badge">
+              <svg class="link-icon" aria-hidden="true"><use href="#icon-instagram"></use></svg>
+            </span>
+            <span class="link-label">Instagram</span>
+          </span>
+          <span class="link-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="link-tile link-discord" target="_blank" rel="noopener noreferrer" href="https://discord.gg/nv89cRgEsS">
+          <span class="link-main">
+            <span class="icon-badge">
+              <svg class="link-icon" aria-hidden="true"><use href="#icon-discord"></use></svg>
+            </span>
+            <span class="link-label">Discord</span>
+          </span>
+          <span class="link-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="link-tile link-facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PegasusGamesNYC/">
+          <span class="link-main">
+            <span class="icon-badge">
+              <svg class="link-icon" aria-hidden="true"><use href="#icon-facebook"></use></svg>
+            </span>
+            <span class="link-label">Facebook</span>
+          </span>
+          <span class="link-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="link-tile link-threads" target="_blank" rel="noopener noreferrer" href="https://www.threads.com/@pegasusgamesnyc">
+          <span class="link-main">
+            <span class="icon-badge">
+              <svg class="link-icon" aria-hidden="true"><use href="#icon-threads"></use></svg>
+            </span>
+            <span class="link-label">Threads</span>
+          </span>
+          <span class="link-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="link-tile link-bluesky" target="_blank" rel="noopener noreferrer" href="https://bsky.app/profile/pegasusgamesnyc.bsky.social">
+          <span class="link-main">
+            <span class="icon-badge">
+              <svg class="link-icon" aria-hidden="true"><use href="#icon-bluesky"></use></svg>
+            </span>
+            <span class="link-label">Bluesky</span>
+          </span>
+          <span class="link-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="link-tile link-twitter" target="_blank" rel="noopener noreferrer" href="https://twitter.com/pegasusgamesnyc">
+          <span class="link-main">
+            <span class="icon-badge">
+              <svg class="link-icon" aria-hidden="true"><use href="#icon-twitter"></use></svg>
+            </span>
+            <span class="link-label">Twitter / X</span>
+          </span>
+          <span class="link-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="link-tile link-youtube" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCLVCLQPt9jIGwWOA2kaaaxA">
+          <span class="link-main">
+            <span class="icon-badge">
+              <svg class="link-icon" aria-hidden="true"><use href="#icon-youtube"></use></svg>
+            </span>
+            <span class="link-label">YouTube</span>
+          </span>
+          <span class="link-arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
 </body>
+</html>
