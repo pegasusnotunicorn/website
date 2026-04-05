@@ -87,7 +87,7 @@ p {
 }
 
 .logo-lockup {
-  width: min(100%, 540px);
+  width: min(100%, 405px);
   margin: 0 auto;
 }
 
@@ -242,9 +242,9 @@ p {
 }
 
 .status-stamp {
-  background: #b83b2f;
+  background: #ffffff;
   border-color: #b83b2f;
-  color: #ffffff !important;
+  color: #b83b2f !important;
 }
 
 .status-stamp-secondary {
@@ -254,9 +254,9 @@ p {
 }
 
 .status-stamp-soon {
-  background: #2f8f5b;
+  background: #ffffff;
   border-color: #2f8f5b;
-  color: #ffffff !important;
+  color: #2f8f5b !important;
 }
 
 .game-card p,
@@ -281,6 +281,16 @@ p {
   transition: background-color 180ms ease, border-color 180ms ease;
 }
 
+.card-cta-kickstarter {
+  background: #05ce78;
+  border-color: #05ce78;
+}
+
+.card-cta-lcm {
+  background: #5f5aa2;
+  border-color: #5f5aa2;
+}
+
 .card-cta-icon {
   width: 16px;
   height: 16px;
@@ -291,6 +301,18 @@ p {
 .game-card-link:focus-visible .card-cta {
   background: #25343c;
   border-color: #25343c;
+}
+
+.game-card-link:hover .card-cta-kickstarter,
+.game-card-link:focus-visible .card-cta-kickstarter {
+  background: #03b86b;
+  border-color: #03b86b;
+}
+
+.game-card-link:hover .card-cta-lcm,
+.game-card-link:focus-visible .card-cta-lcm {
+  background: #4a4690;
+  border-color: #4a4690;
 }
 
 .panel-links {
