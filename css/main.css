@@ -278,7 +278,7 @@ p {
   border: 1px solid var(--accent);
   color: #ffffff;
   font-weight: 700;
-  transition: background-color 180ms ease, border-color 180ms ease;
+  transition: background 180ms ease, border-color 180ms ease, color 180ms ease;
 }
 
 .card-cta-kickstarter {
@@ -329,6 +329,8 @@ p {
 
 .link-tile {
   --link-hover: var(--accent);
+  --link-hover-border: var(--accent);
+  --link-hover-icon: #ffffff;
   display: inline-flex;
   width: 100%;
   min-height: 52px;
@@ -341,7 +343,7 @@ p {
   box-shadow: 0 4px 10px rgba(21, 33, 39, 0.03);
   text-decoration: none;
   font-weight: 700;
-  transition: transform 180ms ease, background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease, color 180ms ease;
+  transition: transform 180ms ease, background 180ms ease, border-color 180ms ease, box-shadow 180ms ease, color 180ms ease;
 }
 
 .link-main {
@@ -360,7 +362,7 @@ p {
   border-radius: 999px;
   background: #ffffff;
   border: 1px solid rgba(21, 33, 39, 0.12);
-  transition: background-color 180ms ease, border-color 180ms ease;
+  transition: background 180ms ease, border-color 180ms ease, color 180ms ease;
 }
 
 .link-icon {
@@ -368,6 +370,7 @@ p {
   height: 16px;
   display: block;
   color: var(--text);
+  transition: color 180ms ease;
 }
 
 .link-label {
@@ -385,26 +388,64 @@ p {
 .link-tile:focus-visible {
   transform: translateY(-2px);
   background: var(--link-hover);
-  border-color: var(--link-hover);
+  border-color: var(--link-hover-border);
   color: #ffffff;
   box-shadow: 0 10px 20px rgba(21, 33, 39, 0.12);
 }
 
+.link-email:hover .icon-badge,
+.link-email:focus-visible .icon-badge {
+  background: #b83b2f;
+  border-color: #b83b2f;
+}
+
+.link-email:hover .link-icon,
+.link-email:focus-visible .link-icon {
+  color: #ffffff;
+}
+
 .link-tile:hover .link-arrow,
 .link-tile:focus-visible .link-arrow {
-  color: #ffffff;
+  color: var(--link-hover-icon);
   transform: translateX(3px);
 }
 
-.link-email { --link-hover: #152127; }
-.link-tiktok { --link-hover: #111111; }
-.link-instagram { --link-hover: #e4405f; }
-.link-discord { --link-hover: #5865f2; }
-.link-facebook { --link-hover: #1877f2; }
-.link-threads { --link-hover: #000000; }
-.link-bluesky { --link-hover: #1185fe; }
-.link-twitter { --link-hover: #111111; }
-.link-youtube { --link-hover: #ff0000; }
+.link-email {
+  --link-hover: #152127;
+  --link-hover-border: #152127;
+}
+.link-tiktok {
+  --link-hover: linear-gradient(#00f2ea, #00f2ea) left center / 22% 100% no-repeat, linear-gradient(#000000, #000000) center center / 56% 100% no-repeat, linear-gradient(#ff0050, #ff0050) right center / 22% 100% no-repeat;
+  --link-hover-border: transparent;
+}
+.link-instagram {
+  --link-hover: #e4405f;
+  --link-hover-border: #e4405f;
+}
+.link-discord {
+  --link-hover: #5865f2;
+  --link-hover-border: #5865f2;
+}
+.link-facebook {
+  --link-hover: #1877f2;
+  --link-hover-border: #1877f2;
+}
+.link-threads {
+  --link-hover: #000000;
+  --link-hover-border: #000000;
+}
+.link-bluesky {
+  --link-hover: #1185fe;
+  --link-hover-border: #1185fe;
+}
+.link-twitter {
+  --link-hover: #000000;
+  --link-hover-border: #000000;
+}
+.link-youtube {
+  --link-hover: #ff0000;
+  --link-hover-border: #ff0000;
+}
 
 .story-panel {
   margin-top: 28px;
