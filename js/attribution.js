@@ -9,12 +9,15 @@
     "fbclid",
     "gclid",
   ];
-  // Domains where appending UTMs is useful (Pegasus-owned sites that consume them).
+  // Domains where appending UTMs is useful (Pegasus-owned sites that consume them,
+  // plus the Kickstarter project page).
   var TAGGED_HOSTS = [
     "lovecareermagic.com",
     "www.lovecareermagic.com",
     "sysifuscorp.com",
     "www.sysifuscorp.com",
+    "kickstarter.com",
+    "www.kickstarter.com",
   ];
 
   function readStored() {
