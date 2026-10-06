@@ -1,0 +1,223 @@
+{
+ "source": "Love, Career & Magic character art, watercolor by Carolyn Frank. (c) Pegasus Games.",
+ "characters": [
+  {
+   "slug": "ahxi-raanee",
+   "name": "Ahxi Raanee",
+   "species": "Basilisk",
+   "job": "Lab Technician",
+   "art": "https://unicornwithwings.com/characters/art/ahxi-raanee.jpg",
+   "cutout": "https://unicornwithwings.com/characters/cutouts/ahxi-raanee.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/ahxi-raanee.png"
+  },
+  {
+   "slug": "anna-salandria-westergaard",
+   "name": "Anna Salandria Westergaard",
+   "species": "Dark Elf",
+   "job": "Model",
+   "art": "https://unicornwithwings.com/characters/art/anna-salandria-westergaard.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/anna-salandria-westergaard.png"
+  },
+  {
+   "slug": "arya-jensen",
+   "name": "Arya Jensen",
+   "species": "Sea Monk",
+   "job": "Minister",
+   "art": "https://unicornwithwings.com/characters/art/arya-jensen.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/arya-jensen.png"
+  },
+  {
+   "slug": "beatrice-cavendish",
+   "name": "Beatrice Cavendish",
+   "species": "Cockatrice",
+   "job": "Optometrist",
+   "art": "https://unicornwithwings.com/characters/art/beatrice-cavendish.jpg",
+   "cutout": "https://unicornwithwings.com/characters/cutouts/beatrice-cavendish.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/beatrice-cavendish.png"
+  },
+  {
+   "slug": "bizz-hagglefeet",
+   "name": "Bizz Hagglefeet",
+   "species": "Goblin",
+   "job": "Banker",
+   "art": "https://unicornwithwings.com/characters/art/bizz-hagglefeet.jpg",
+   "cutout": "https://unicornwithwings.com/characters/cutouts/bizz-hagglefeet.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/bizz-hagglefeet.png"
+  },
+  {
+   "slug": "brigit-ni-colla",
+   "name": "Brigit Ní Colla",
+   "species": "Leprechaun",
+   "job": "Bank Teller / Model",
+   "art": "https://unicornwithwings.com/characters/art/brigit-ni-colla.jpg",
+   "cutout": "https://unicornwithwings.com/characters/cutouts/brigit-ni-colla.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/brigit-ni-colla.png"
+  },
+  {
+   "slug": "domination-armor-set",
+   "name": "Dommy Domination Armor Set",
+   "species": "Sentient Armor",
+   "job": "Security Guard",
+   "art": "https://unicornwithwings.com/characters/art/domination-armor-set.jpg",
+   "cutout": "https://unicornwithwings.com/characters/cutouts/domination-armor-set.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/domination-armor-set.png"
+  },
+  {
+   "slug": "dorpip-wadlezedle",
+   "name": "Dorpip Wadlezedle",
+   "species": "Gnome",
+   "job": "Comedian",
+   "art": "https://unicornwithwings.com/characters/art/dorpip-wadlezedle.jpg",
+   "cutout": "https://unicornwithwings.com/characters/cutouts/dorpip-wadlezedle.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/dorpip-wadlezedle.png"
+  },
+  {
+   "slug": "elias-maya-dimakos",
+   "name": "Elias & Maya Dimakos",
+   "species": "Gemini",
+   "job": "Freelance Artist / Accountant",
+   "art": "https://unicornwithwings.com/characters/art/elias-maya-dimakos.jpg",
+   "cutout": "https://unicornwithwings.com/characters/cutouts/elias-maya-dimakos.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/elias-maya-dimakos.png"
+  },
+  {
+   "slug": "gingernuts-goodyhug",
+   "name": "Gingernuts Goodyhug",
+   "species": "Gingerbread Being",
+   "job": "Part-timer",
+   "art": "https://unicornwithwings.com/characters/art/gingernuts-goodyhug.jpg",
+   "cutout": "https://unicornwithwings.com/characters/cutouts/gingernuts-goodyhug.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/gingernuts-goodyhug.png"
+  },
+  {
+   "slug": "grodrot-the-hungry",
+   "name": "Grodrot, The Hungry",
+   "species": "Wyvern",
+   "job": "Chef",
+   "art": "https://unicornwithwings.com/characters/art/grodrot-the-hungry.jpg",
+   "cutout": "https://unicornwithwings.com/characters/cutouts/grodrot-the-hungry.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/grodrot-the-hungry.png"
+  },
+  {
+   "slug": "hansan-snekker",
+   "name": "Hansan Snekker, the Wise",
+   "species": "Human",
+   "job": "Wizard",
+   "art": "https://unicornwithwings.com/characters/art/hansan-snekker.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/hansan-snekker.png"
+  },
+  {
+   "slug": "korelin-bottleguard",
+   "name": "Korelin Bottleguard",
+   "species": "Dwarf",
+   "job": "Mechanic",
+   "art": "https://unicornwithwings.com/characters/art/korelin-bottleguard.jpg",
+   "cutout": "https://unicornwithwings.com/characters/cutouts/korelin-bottleguard.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/korelin-bottleguard.png"
+  },
+  {
+   "slug": "kottr-the-grumpy",
+   "name": "Köttr, The Grumpy",
+   "species": "Dragon",
+   "job": "Courier",
+   "art": "https://unicornwithwings.com/characters/art/kottr-the-grumpy.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/kottr-the-grumpy.png"
+  },
+  {
+   "slug": "lydia-grimsbane",
+   "name": "Lydia Grimsbane",
+   "species": "Human",
+   "job": "Student",
+   "art": "https://unicornwithwings.com/characters/art/lydia-grimsbane.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/lydia-grimsbane.png"
+  },
+  {
+   "slug": "nycolas-o-sullivan",
+   "name": "Nycolas O'Sullivan",
+   "species": "Dullahan",
+   "job": "Jockey",
+   "art": "https://unicornwithwings.com/characters/art/nycolas-o-sullivan.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/nycolas-o-sullivan.png"
+  },
+  {
+   "slug": "ogark-chestmaul",
+   "name": "Ogark Chestmaul",
+   "species": "Ogre",
+   "job": "Part-time Bouncer",
+   "art": "https://unicornwithwings.com/characters/art/ogark-chestmaul.jpg",
+   "cutout": "https://unicornwithwings.com/characters/cutouts/ogark-chestmaul.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/ogark-chestmaul.png"
+  },
+  {
+   "slug": "robin-stringsworth",
+   "name": "Robin Stringsworth",
+   "species": "Talking Puppet",
+   "job": "Waitress",
+   "art": "https://unicornwithwings.com/characters/art/robin-stringsworth.jpg",
+   "cutout": "https://unicornwithwings.com/characters/cutouts/robin-stringsworth.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/robin-stringsworth.png"
+  },
+  {
+   "slug": "rosamund-galbassi",
+   "name": "Rosamund Galbassi",
+   "species": "Monopod",
+   "job": "Foot Model",
+   "art": "https://unicornwithwings.com/characters/art/rosamund-galbassi.jpg",
+   "cutout": "https://unicornwithwings.com/characters/cutouts/rosamund-galbassi.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/rosamund-galbassi.png"
+  },
+  {
+   "slug": "seji-toomin",
+   "name": "Seji Toomin",
+   "species": "Troll",
+   "job": "Lawyer",
+   "art": "https://unicornwithwings.com/characters/art/seji-toomin.jpg",
+   "cutout": "https://unicornwithwings.com/characters/cutouts/seji-toomin.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/seji-toomin.png"
+  },
+  {
+   "slug": "soh",
+   "name": "Soh",
+   "species": "Unicorn",
+   "job": "Printer",
+   "art": "https://unicornwithwings.com/characters/art/soh.jpg",
+   "cutout": "https://unicornwithwings.com/characters/cutouts/soh.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/soh.png"
+  },
+  {
+   "slug": "susom-the-giant",
+   "name": "Susom",
+   "species": "Giant",
+   "job": "Construction Worker",
+   "art": "https://unicornwithwings.com/characters/art/susom-the-giant.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/susom-the-giant.png"
+  },
+  {
+   "slug": "sysife-bernard",
+   "name": "Sysife Bernard",
+   "species": "Bicorn",
+   "job": "Artist",
+   "art": "https://unicornwithwings.com/characters/art/sysife-bernard.jpg",
+   "cutout": "https://unicornwithwings.com/characters/cutouts/sysife-bernard.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/sysife-bernard.png"
+  },
+  {
+   "slug": "tsukasa-shobo",
+   "name": "Tsukasa Shōbō",
+   "species": "Elf",
+   "job": "Aspiring Firefighter",
+   "art": "https://unicornwithwings.com/characters/art/tsukasa-shobo.jpg",
+   "cutout": "https://unicornwithwings.com/characters/cutouts/tsukasa-shobo.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/tsukasa-shobo.png"
+  },
+  {
+   "slug": "urg-the-hacker",
+   "name": "Urg the Hacker",
+   "species": "Orc",
+   "job": "Web Designer",
+   "art": "https://unicornwithwings.com/characters/art/urg-the-hacker.jpg",
+   "cutout": "https://unicornwithwings.com/characters/cutouts/urg-the-hacker.jpg",
+   "avatar": "https://unicornwithwings.com/characters/avatars/urg-the-hacker.png"
+  }
+ ]
+}
